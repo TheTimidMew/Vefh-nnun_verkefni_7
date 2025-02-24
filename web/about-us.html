@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="is">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Verkefni 7">
+    <meta name="author" content="Trausti Þór Hayward">
+    <title>About us.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="icon" type="image/svg" href="images/icon.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<script>
+    function mobileNav() {
+        var x = document.getElementById("topnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } 
+        else {
+            x.className = "topnav";
+        }
+    }
+    function openForm() {
+        document.getElementById("myForm").style.display = "block";
+    }
+    
+    function closeForm() {
+        document.getElementById("myForm").style.display = "none";
+    }
+    document.addEventListener("DOMContentLoaded", function(event) {
+        let slideIndex = 0;
+        showSlides();
+        function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("Slides");
+        let dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}    
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+        setTimeout(showSlides, 5000); // Change image every 2 seconds
+        }
+});
+</script>
+
+<body>
+    <div id="mobileBar" class="mobileBar responsive">
+        <a href="javascript:void(0);" class="icon" onclick="mobileNav()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <div>
+    <nav class="topnav" id="topnav">
+        <a href="./index.html">Home</a>
+        <a href="./schedule.html">Schedule</a>
+        <a href="./about-us.html" class="selected">About Us</a>
+        <a href="./tickets.html">Tickets</a>
+    </nav>    
+    <div class="bannerBg">
+        <picture>
+            <source media="(min-width:37.5rem)" srcset="./images/banner.png">
+            <source media="(min-width:20rem)" srcset="./images/banner_mobile.png">
+            <img src="./images/banner.png" alt="banner" style="width:auto;">
+        </picture>
+    </div>
+    <div id="content">
+        <img id="logo"src="images/logo-transparent-black (1).png">
+        <h2>Um okkur</h2>
+        <p>Við hjá Stéttafélaginu ehf. sérhæfum okkur í fjölbreyttum og metnaðarfullum verkefnum á sviði nýbygginga, viðhalds fasteigna og mannvirkjagerðar sem tengjast innviðum samfélagsins. Hvort sem um er að ræða nýlagnir og endurgerð veitulagna, jarðvegsgrunna fyrir nýbyggingar, lóðafrágang eða þjónustuverkefni eins og snjómokstur, þá tryggjum við vandaða vinnu og faglegan frágang.</p>
+
+        <p>Við byggjum framtíðina með traustum tengslum við verkkaupa. Stærstur hluti verkefna okkar kemur í gegnum opinber útboð þar sem við vinnum fyrir veitufyrirtæki, sveitarfélög og opinberar stofnanir. Auk þess höfum við þróað eigin fjárfestingarverkefni og byggjum íbúðar- og atvinnuhúsnæði frá grunni til fullbúins mannvirkis.</p>
+
+        <p>Þegar þú velur Stéttafélagið ehf. ertu að velja áreiðanleika, gæði og öfluga lausn fyrir framtíðarverkefni þitt.</p>
+
+        <p>Hafðu samband og fáðu fagfólk með í verkið!</p>
+        <h2>Yttu á takka till þess að gerast meðlimur</h2>
+        <div class="slideshow-container">
+
+            <div class="Slides fade">
+              <img src="images/easter1.jpg" style="width:100%">
+            </div>
+            
+            <div class="Slides fade">
+              <img src="images/easter2.jpg" style="width:100%">
+            </div>
+            
+            <div class="Slides fade">
+              <img src="images/easter1.jpg" style="width:100%">
+            </div>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+            </div>
+    </div>
+    <footer>
+        <div class="col-3 container">
+            <div>
+                <div class="footer-info">
+                    <h2>Samfeglagsmiðlar</h2>
+                    <div id="social">
+                        <span class="icon-facebook2"></span>
+                        <span class="icon-instagram"></span>
+                        <span class="icon-youtube"></span>
+                        <span class="icon-spotify"></span>
+                    </div>
+                </div>
+                <h2>Email</h2>
+                <p>xd@xd.is</p>
+            </div>
+            <div>
+                <div class="footer-info">      
+                    <h2>Sjálfstæðisflokkurinn</h2>
+                    <p>Háaleitisbraut 1
+                    <br>
+                    Reykavík</p>
+                </div> 
+                <h2>Símanumer</h2>
+                <p>515-1700</p>
+            </div>
+            <div id="fugl">
+                <img src="images/transfalki@4x-183x183x0x0x183x183x1727709793.png">
+            </div>
+        </div>
+        <div class="chat-popup" id="myForm">
+            <form action="./mailing-list-confirmed.html" class="form-container">
+              <h2>Join mailing list</h2>
+          
+              <br><br><label for="email">Email:</label><br>
+              <input type="email" id="email" name="email" required placeholder="someone@example.com">
+              <button type="submit" class="btn">Send</button>
+              <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+            </form>
+          </div>
+          <button class="chat-button" onclick="openForm()"><span class="icon-bubbles2"></span></button>
+    </footer>
+
+</body>
+
+</html>
