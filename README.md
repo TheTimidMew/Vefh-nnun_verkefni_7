@@ -14,6 +14,6 @@
  
  Add Animation
 
- Fix english inthe tickets form
+ Fix english in the tickets form
  
 [My live webpage](web/index.html)
