@@ -13,5 +13,7 @@
  Footer links(icons)
  
  Add Animation
+
+ Fix english inthe tickets form
  
 [My live webpage](web/index.html)
