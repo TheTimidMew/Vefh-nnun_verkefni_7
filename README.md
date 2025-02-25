@@ -2,15 +2,11 @@
  Trausti Þór Hayward verkefni 7
  
  ## To do list:
- 
- images same size and add image 3
- 
+
  Change mailing list icon 
  
  Footer links(icons)
  
  Add Animation
-
- Fix english in the tickets form
  
 [My live webpage](web/index.html)
