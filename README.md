@@ -3,8 +3,6 @@
  
  ## To do list:
  
- Crop mobile banner
- 
  images same size and add image 3
  
  Change mailing list icon 
