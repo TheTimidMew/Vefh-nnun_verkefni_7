@@ -2,7 +2,6 @@
  Trausti Þór Hayward verkefni 7
  
  ## To do list:
- Change icon in head
  
  Crop mobile banner
  
