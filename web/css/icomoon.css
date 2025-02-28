@@ -24,14 +24,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-home3:before {
-  content: "\e902";
-}
-.icon-file-text:before {
-  content: "\e922";
-}
-.icon-bubbles2:before {
-  content: "\e96d";
+.icon-envelop:before {
+  content: "\e945";
+  width: auto;
+  height: auto;
+  display: block;
 }
 .icon-facebook2:before {
   content: "\ea91";
@@ -42,11 +39,6 @@
   content: "\ea92";
   padding-right: 1rem;
   color: darkorchid;
-}
-.icon-spotify:before {
-  content: "\ea94";
-  padding-right: 1rem;
-  color: chartreuse;
 }
 .icon-youtube:before {
   content: "\ea9d";

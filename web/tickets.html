@@ -34,26 +34,26 @@
     </div>
     <div>
     <nav class="topnav" id="topnav">
-        <a href="./index.html">Home</a>
-        <a href="./schedule.html">Schedule</a>
-        <a href="./about-us.html">About Us</a>
-        <a href="./tickets.html" class="selected">Tickets</a>
+        <a href="./index.html">Heim</a>
+        <a href="./schedule.html">Dagskrá</a>
+        <a href="./about-us.html">Um okkur</a>
+        <a href="./tickets.html" class="selected">Miðar</a>
     </nav>    
     <div class="bannerBg">
         <picture>
             <source media="(min-width:37.5rem)" srcset="./images/banner.png">
             <source media="(min-width:20rem)" srcset="./images/banner_mobile.png">
-            <img src="./images/banner.png" alt="banner" style="width:auto;">
+            <img class="animate__animated animate__bounceIn" src="./images/banner.png" alt="banner" style="width:auto;">
         </picture>
     </div>
     <div id="content">
         <h1>Miðar</h1>
         <form action="./payment-page.html">
             <br><label for="nafn">Nafn:</label><br>
-            <input type="text" id="nafn" name="nafn" required placeholder="Full Name">
+            <input type="text" id="nafn" name="nafn" required placeholder="Fullt Nafn">
       
             <br><br><label for="sími">Símanúmer:</label><br>
-            <input type="tel" id="sími" name="sími" required placeholder="Telephone number (7 Digits)" pattern="[0-9]{7}">
+            <input type="tel" id="sími" name="sími" required placeholder="Símanumer (7 Númer)" pattern="[0-9]{7}">
       
             <br><br><label for="email">Email:</label><br>
             <input type="email" id="email" name="email" required placeholder="someone@example.com">
@@ -87,7 +87,8 @@
       
             <br><br><input type="checkbox"  id="postalisti" name="postalisti" value="postalisti">
             <label for="postalisti">Skráið mig á postlistan</label><br>
-            <br><br><input type="submit" value="Submit">
+
+            <br><br><input type="submit" value="staðfesta">
           </form>
     </div>
     <footer>

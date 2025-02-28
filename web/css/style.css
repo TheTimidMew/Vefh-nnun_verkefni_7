@@ -139,6 +139,8 @@ nav a.selected{
     overflow-x: hidden;
 	display: block;
 	padding-top: 0;
+	width: 50%;
+	text-align: right;
 }
 .topnav.responsive a{
 	display: inline-block;
@@ -174,7 +176,7 @@ footer{
 }
 picture{
 	position: relative;
-	bottom: -12px;
+	bottom: -4.5px;
 }
 #fugl{
     text-align:center ;
@@ -185,7 +187,9 @@ picture{
 	padding: 1rem;
 }
 #logo{
-	width: 50%;
+	width: 100%;
+	padding: 0 15rem 0;
+	
 }
 table {
 	/* border-collapse sets the table's elements to share borders, rather than floating as separate "boxes". */
@@ -222,6 +226,7 @@ textarea {
 	bottom: 40px;
 	right: 28px;
 	width: 90px;
+	background-color: var(--nc-d-green);
   }
   .chat-popup {
 	display: none;
@@ -266,9 +271,13 @@ textarea {
 .btn a,.btn2 a {
 	text-decoration: none;
 }
-  .form-container .btn:hover {
+.btn:hover {
 	background-color:#107170;
-  }
+}
+.btn2:hover {
+	background-color:var(--nc-pink_hover);
+}
+
   .form-container .cancel {
 	background-color: red;
   }
@@ -311,6 +320,9 @@ input[type="submit"]{
 	color: var(--nc-lk-tx);
 	text-transform: uppercase;
 }
+input[type="submit"]:hover{
+	background-color: var(--nc-pink_hover);
+}
 .slideshow-container {
 	max-width: 1000px;
 	position: relative;
@@ -328,18 +340,19 @@ input[type="submit"]{
 .active {
 	background-color: #717171;
   }
-  
   /* Fading animation */
   .fade {
 	animation-name: fade;
 	animation-duration: 1.5s;
-  }
+}
   
   @keyframes fade {
 	from {opacity: .4} 
 	to {opacity: 1}
-  }
-
+}
+#social a{
+	text-decoration: none;
+}
 @media screen and (min-width:37.5em) {
     .col-2 {
         grid-template-columns: 1fr 3fr;
@@ -357,6 +370,10 @@ input[type="submit"]{
 	}
 	nav{
 		display: block;
+	}
+	picture{
+		position: relative;
+		bottom: -12px;
 	}
 
 }

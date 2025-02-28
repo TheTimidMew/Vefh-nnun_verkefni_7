@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="icon" type="image/svg" href="images/icon.svg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://i.icomoon.io/public/temp/ff17840c37/UntitledProject/style.css">
 </head>
 <script>
     function mobileNav() {
@@ -62,29 +63,24 @@
     </div>
     <div>
     <nav class="topnav" id="topnav">
-        <a href="./index.html">Home</a>
-        <a href="./schedule.html">Schedule</a>
-        <a href="./about-us.html" class="selected">About Us</a>
-        <a href="./tickets.html">Tickets</a>
+        <a href="./index.html">Heim</a>
+        <a href="./schedule.html">Dagskrá</a>
+        <a href="./about-us.html" class="selected">Um okkur</a>
+        <a href="./tickets.html">Miðar</a>
     </nav>    
     <div class="bannerBg">
         <picture>
             <source media="(min-width:37.5rem)" srcset="./images/banner.png">
             <source media="(min-width:20rem)" srcset="./images/banner_mobile.png">
-            <img src="./images/banner.png" alt="banner" style="width:auto;">
+            <img class="animate__animated animate__bounceIn" src="./images/banner.png" alt="banner" style="width:auto;">
         </picture>
     </div>
     <div id="content">
-        <img id="logo"src="images/logo-transparent-black (1).png">
+        <img id="logo"src="images/logo.png">
         <h2>Um okkur</h2>
-        <p>Við hjá Stéttafélaginu ehf. sérhæfum okkur í fjölbreyttum og metnaðarfullum verkefnum á sviði nýbygginga, viðhalds fasteigna og mannvirkjagerðar sem tengjast innviðum samfélagsins. Hvort sem um er að ræða nýlagnir og endurgerð veitulagna, jarðvegsgrunna fyrir nýbyggingar, lóðafrágang eða þjónustuverkefni eins og snjómokstur, þá tryggjum við vandaða vinnu og faglegan frágang.</p>
-
-        <p>Við byggjum framtíðina með traustum tengslum við verkkaupa. Stærstur hluti verkefna okkar kemur í gegnum opinber útboð þar sem við vinnum fyrir veitufyrirtæki, sveitarfélög og opinberar stofnanir. Auk þess höfum við þróað eigin fjárfestingarverkefni og byggjum íbúðar- og atvinnuhúsnæði frá grunni til fullbúins mannvirkis.</p>
-
-        <p>Þegar þú velur Stéttafélagið ehf. ertu að velja áreiðanleika, gæði og öfluga lausn fyrir framtíðarverkefni þitt.</p>
-
-        <p>Hafðu samband og fáðu fagfólk með í verkið!</p>
-        <h2>Yttu á takka till þess að gerast meðlimur</h2>
+        <p>
+            Sjálfstæðisflokkurinn var stofnaður 25. maí 1929 við samruna Íhaldsflokksins og Frjálslynda flokksins. Fyrsti formaður flokksins var Jón Þorláksson, verkfræðingur og síðar borgarstjóri í Reykjavík. Núverandi formaður Sjálfstæðisflokksins er Bjarni Benediktsson fv. forsætisráðherra.</p>
+        <h2 class= "animate__animated animate__pulse animate__infinite	infinite">Yttu á takkan í horninu till þess að gerast meðlimur!</h2>
         <div class="slideshow-container">
 
             <div class="Slides fade">
@@ -96,7 +92,7 @@
             </div>
             
             <div class="Slides fade">
-              <img src="images/easter1.jpg" style="width:100%">
+              <img src="images/easter3.jpg" style="width:100%">
             </div>
             
             </div>
@@ -139,15 +135,14 @@
         </div>
         <div class="chat-popup" id="myForm">
             <form action="./mailing-list-confirmed.html" class="form-container">
-              <h2>Join mailing list</h2>
-          
+              <h2>Skrá sig á póstlista</h2>
               <br><br><label for="email">Email:</label><br>
               <input type="email" id="email" name="email" required placeholder="someone@example.com">
-              <button type="submit" class="btn">Send</button>
-              <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+              <button type="submit" class="btn">Skrá</button>
+              <button type="button" class="btn cancel" onclick="closeForm()">Loka</button>
             </form>
           </div>
-          <button class="chat-button" onclick="openForm()"><span class="icon-bubbles2"></span></button>
+          <button class="chat-button" onclick="openForm()"><span class="icon-envelop"></span></button>
     </footer>
 
 </body>
