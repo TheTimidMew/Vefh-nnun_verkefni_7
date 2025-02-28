@@ -3,7 +3,7 @@
  
  ## To do list: 
 
- 
- Add Animation
+ All done!
+
  
 [My live webpage](web/index.html)
